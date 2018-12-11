@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:title="@string/settings_activity_label">
+
+    <EditTextPreference
+        android:defaultValue="@string/news_entries_default_value"
+        android:inputType="numberDecimal"
+        android:key="@string/news_entries_key"
+        android:selectAllOnFocus="true"
+        android:title="@string/news_entries_label" />
+
+    <ListPreference
+        android:defaultValue="@string/filter_news_by_default_value"
+        android:entries="@array/filter_news_by_labels"
+        android:entryValues="@array/filter_news_by_values"
+        android:key="@string/filter_news_by_key"
+        android:title="@string/filter_news_by_label" />
+
+</PreferenceScreen>

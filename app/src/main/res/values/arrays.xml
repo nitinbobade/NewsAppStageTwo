@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="filter_news_by_labels">
+        <item>@string/filter_news_by_all_label</item>
+        <item>@string/filter_news_by_technology_label</item>
+        <item>@string/filter_news_by_sport_label</item>
+        <item>@string/filter_news_by_music_label</item>
+    </string-array>
+
+    <string-array name="filter_news_by_values">
+        <item>@string/filter_news_by_all_value</item>
+        <item>@string/filter_news_by_technology_value</item>
+        <item>@string/filter_news_by_sport_value</item>
+        <item>@string/filter_news_by_music_value</item>
+    </string-array>
+
+</resources>
